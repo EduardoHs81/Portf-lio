@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" type="text/css"href="project.css">
+    <style>
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    background-color: #005bc5;
+    }
+
+imput[type="submit"]:hover {
+    background-color: black;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <img src="./img/Eduardo.png"></img>
+        </div>
+
+         
+        <h2>Desenvolvedor de Software</h2>   
+        <h2>Meus Projetos</h2>
+        
+    </header>
+    <form action="#" method="Post">
+        <label for="titulo">Título do Projeto:</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="descriçao">Descrição</label> 
+        <textarea id="descriçao" name="descriçao" rows="4" required></textarea>
+
+        <label for="link">Link do projeto:</label>
+        <input type="url" id="link" name="link" required>
+
+        <input type="submit" value="Adicionar projeto">
+    </form>
+    
+</body>
+</html>
